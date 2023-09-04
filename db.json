@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "name": "Viandas",
+      "surname": "Perrone",
+      "email": "viandas@email.com",
+      "password": "123456",
+      "token": "bG1Ptx4ZztwJwAoyjxQy",
+      "role": "ADMINISTRADOR",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "surname": "test",
+      "email": "test@mail.com",
+      "password": "123456",
+      "role": "USUARIO",
+      "token": "bG1Ptx4ZztwJwAoyjxQH",
+      "id": 2
+    },
+    {
+      "name": "perrone",
+      "email": "email@viandas.com",
+      "password": "123456",
+      "surname": "viandas",
+      "role": "USUARIO",
+      "token": "Xq7OOLe3qkhz1DOCSHY5",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Menu de Milanesa con papas",
+      "description": "",
+      "price": 1000,
+      "stock": 50,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Menu de pescado",
+      "description": "lorem ipsum",
+      "price": 500,
+      "stock": 25,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Menu de Berenjenas",
+      "description": "lorem ipsum",
+      "price": 800,
+      "stock": 15,
+      "categoryId": 2
+    }
+  ],
+  "buyers": [
+    {
+      "name": "Juan",
+      "surname": "Lopez",
+      "email": "jlop@mail.com",
+      "id": 1
+    },
+    {
+      "name": "Maria",
+      "surname": "Fernandez",
+      "email": "m@mail.com",
+      "id": 2
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "productId": 2,
+      "buyerId": 1
+    },
+    {
+      "id": 2,
+      "productId": 3,
+      "buyerId": 2
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "buyerId": 50
+    },
+    {
+      "buyerId": 1,
+      "productId": 2,
+      "id": 4
+    },
+    {
+      "productId": 1,
+      "buyerId": 1,
+      "id": 5
+    },
+    {
+      "productId": 2,
+      "buyerId": 2,
+      "id": 6
+    },
+    {
+      "productId": 3,
+      "buyerId": 1,
+      "id": 7
+    },
+    {
+      "productId": 1,
+      "buyerId": 2,
+      "id": 8
+    },
+    {
+      "productId": 2,
+      "buyerId": 2,
+      "id": 9
+    },
+    {
+      "productId": 2,
+      "buyerId": 1,
+      "id": 10
+    },
+    {
+      "productId": 2,
+      "buyerId": 2,
+      "id": 11
+    },
+    {
+      "productId": 2,
+      "buyerId": 1,
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "buyerId": 1,
+      "id": 13
+    }
+  ]
+}
